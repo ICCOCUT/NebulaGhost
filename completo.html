@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Plantilla</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-"
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<header class="text-white body-font bg-gray-800">
+			<div
+				class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+				<a
+					class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						stroke="currentColor"
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+						viewBox="0 0 24 24">
+						<path
+							d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+					</svg>
+					<span class="ml-3 text-xl">NebulaGhost</span>
+				</a>
+				<!-- Barra de búsqueda -->
+				<div class="relative mx-auto text-white">
+					<input
+						class="border-2 border-gray-700 bg-gray-600 h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
+						type="search"
+						name="search"
+						placeholder="Buscar" />
+					<button type="submit" class="absolute right-0 top-0 mt-3 mr-4">
+						<svg
+							class="text-gray-400 h-4 w-4 fill-current"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24">
+							<path
+								d="M23.706 22.294l-5.62-5.619c-.419-.418-1.078-.418-1.496 0s-.418 1.078 0 1.496l5.62 5.619c.418.418 1.078.418 1.496 0s.418-1.078 0-1.496zM16 9C16 4.029 11.971 0 7 0S2 4.029 2 9s4.029 9 9 9 9-4.029 9-9z"></path>
+						</svg>
+					</button>
+				</div>
+				<!-- Fin de la barra de búsqueda -->
+				<nav
+					class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+					<a class="mr-5 hover:text-gray-300">Aprende</a>
+					<a class="mr-5 hover:text-gray-300">Ecosistema</a>
+					<a class="mr-5 hover:text-gray-300">Acerca</a>
+					<a class="mr-5 hover:text-gray-300">Comunidad</a>
+				</nav>
+			</div>
+		</header>
+		<!-- Fin del header -->
+		<section class="text-gray-400 bg-gray-900 body-font">
+			<div
+				class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+				<img
+					class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+					alt="hero"
+					src="img/astronauta.svg" />
+				<div class="text-center lg:w-2/3 w-full">
+					<h1
+						class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+						únete a nuestra comunidad
+					</h1>
+					<p class="leading-relaxed mb-8">
+						No estás solo. Muchos de nuestros desarrolladores de todo el mundo
+						visitan la documentación de NebulaGhost cada mes. NebulaGhost es
+						algo que las personas y los equipos pueden estar de acuerdo.
+					</p>
+				</div>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer class="text-gray-400 bg-gray-900 body-font">
+			<div class="container px-5 py-24 mx-auto">
+				<div
+					class="flex flex-wrap md:text-left text-center -mb-10 -mx-4 justify-center">
+					<div class="lg:w-1/6 md:w-1/2 w-full px-4 mb-10">
+						<h2
+							class="title-font font-medium text-white tracking-widest text-sm mb-3">
+							Aprende
+						</h2>
+						<nav class="list-none">
+							<li>
+								<a class="text-gray-400 hover:text-white">Primer link</a>
+							</li>
+						</nav>
+					</div>
+					<div class="lg:w-1/6 md:w-1/2 w-full px-4 mb-10">
+						<h2
+							class="title-font font-medium text-white tracking-widest text-sm mb-3">
+							Ecosistema
+						</h2>
+						<nav class="list-none">
+							<li>
+								<a class="text-gray-400 hover:text-white">Primer link</a>
+							</li>
+						</nav>
+					</div>
+					<div class="lg:w-1/6 md:w-1/2 w-full px-4 mb-10">
+						<h2
+							class="title-font font-medium text-white tracking-widest text-sm mb-3">
+							Acerca
+						</h2>
+						<nav class="list-none">
+							<li>
+								<a class="text-gray-400 hover:text-white">Primer link</a>
+							</li>
+						</nav>
+					</div>
+					<div class="lg:w-1/6 md:w-1/2 w-full px-4 mb-10">
+						<h2
+							class="title-font font-medium text-white tracking-widest text-sm mb-3">
+							Comunidad
+						</h2>
+						<nav class="list-none">
+							<li>
+								<a class="text-gray-400 hover:text-white">Primer link</a>
+							</li>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="bg-gray-800 bg-opacity-75">
+				<div
+					class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row items-center justify-center">
+					<p class="text-gray-400 text-sm text-center sm:text-left">
+						© 2023 NebulaGhost —
+						<a
+							href="https://github.com/Fufinop"
+							class="text-gray-500 ml-1"
+							target="_blank"
+							rel="noopener noreferrer"
+							>@Fufinop</a
+						>
+						<a
+							href="https://github.com/Fernando-droidx"
+							class="text-gray-500 ml-1"
+							target="_blank"
+							rel="noopener noreferrer"
+							>@Fernando-droidx
+						</a>
+					</p>
+					<!-- Iconos de redes sociales y correo -->
+					<div
+						class="sm:w-auto w-full mt-2 flex justify-center sm:justify-start">
+						<a
+							href="#"
+							class="text-gray-400 mx-2"
+							target="_blank"
+							rel="noopener noreferrer">
+							<i class="fab fa-facebook"></i>
+						</a>
+						<a
+							href="#"
+							class="text-gray-400 mx-2"
+							target="_blank"
+							rel="noopener noreferrer">
+							<i class="fab fa-twitter"></i>
+						</a>
+						<a
+							href="#"
+							class="text-gray-400 mx-2"
+							target="_blank"
+							rel="noopener noreferrer">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<!-- Icono de correo -->
+						<a href="mailto:tu@email.com" class="text-gray-400 mx-2">
+							<i class="fas fa-envelope"></i>
+						</a>
+						<!-- Fin de iconos de redes sociales y correo -->
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
